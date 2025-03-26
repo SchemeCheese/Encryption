@@ -1,0 +1,22 @@
+[
+  {
+    "id": "042356884356",
+    "name": "chichi",
+    "email": "hoangkimchi46@gmail.com",
+    "password": "123456",
+    "dob": "24/12/2003",
+    "phone": "0828687688",
+    "address": "26 Ngõ 138 Đường Tân Triều",
+    "atm": "0923578261"
+  },
+  {
+    "id": "0436578882",
+    "name": "matsu ",
+    "email": "matsu123@gmail.com",
+    "password": "123456",
+    "dob": "20/01/2003",
+    "phone": "0946382756",
+    "address": "ha noi",
+    "atm": "0984572528"
+  }
+]

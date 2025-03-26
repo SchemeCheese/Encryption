@@ -1,0 +1,98 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  padding: 20px;
+
+  .signin-box {
+    width: 100%;
+    max-width: 400px;
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    form {
+      .input-group {
+        margin-bottom: 20px;
+
+        input {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #444;
+          border-radius: 5px;
+          background: #2a2a2a;
+          color: white;
+          font-size: 16px;
+          outline: none;
+
+          &::placeholder {
+            color: #888;
+          }
+
+          &:focus {
+            border-color: #ff9800;
+          }
+        }
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 5px;
+        background: #ff9800;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          background: #e68900;
+        }
+
+        &:disabled {
+          background: #777;
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .forgot-password {
+      display: block;
+      margin-top: 15px;
+      color: #ff9800;
+      text-decoration: none;
+      font-size: 14px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .signup-link {
+      margin-top: 10px;
+      color: white;
+      font-size: 14px;
+
+      a {
+        color: #ff9800;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
